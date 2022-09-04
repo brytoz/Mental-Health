@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+font-family: 'Albert Sans', sans-serif;
+}
+
+.img1{
+
+background-image:linear-gradient(#ffffff, rgba(0, 0, 0, 0.3)) ;
+height: 100vh;
+position: relative;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed; 
+}
+
+/* 
+.box {
+    width: 20px;
+    height: 20px;
+    border-radius: 60%;
+    background-color: #0ba7bc;
+    position: relative;
+    animation: example 4s infinite ; 
+  }
+    
+  @keyframes example {
+    0%   {background-color:black; left:0px; top:0px;}
+    25%  {background-color:#0ba7bc; left:200px; top:0px;}
+    50%  {background-color:gray; left:200px; top:200px;}
+    75%  {background-color:#0ba7bc; left:0px; top:200px;}
+    100% {background-color:black; left:0px; top:0px;}
+  }
+
+
+  .boxes {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #0ba7bc;
+    position: relative;
+    animation: examples 6s infinite ; 
+  }
+    
+  @keyframes examples {
+    0%   {background-color:black; left:0px; top:0px;}
+    25%  {background-color:#0ba7bc; left:200px; top:0px;}
+    50%  {background-color:gray; left:200px; top:200px;}
+    75%  {background-color:#0ba7bc; left:0px; top:200px;}
+    100% {background-color:black; left:0px; top:0px;}
+  }
+
+  .boxeses {
+    width: 20px;
+    height: 20px;
+    border-radius: 130%;
+    background-color: #0ba7bc;
+    position: relative;
+    animation: firsts 8s infinite ; 
+  }
+    
+  @keyframes firsts {
+    0%   {background-color:black; left:0px; top:0px;}
+    25%  {background-color:#0ba7bc; left:200px; top:0px;}
+    50%  {background-color:gray; left:200px; top:200px;}
+    75%  {background-color:#0ba7bc; left:0px; top:200px;}
+    100% {background-color:black; left:0px; top:0px;}
+  }
+   */
+
+.goUp {
+    margin-top: -100px;
+}
+
+@media(max-width: 800px){
+    .goUp{
+    margin-top: auto; 
+	}
+    #heights {
+        height: 60vh; 
+    } 
+}
+
+@media only screen and (max-width: 1024px) {
+  #reduce {
+    display: none;
+  }
+}
